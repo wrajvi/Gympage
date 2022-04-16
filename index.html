@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="" class="Webproject/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("abs-gecb598236_1920.jpg");
+        height: 1200px;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        left: 23px;
+        top: 10px;
+
+    }
+
+    .left img {
+        width: 123px;
+        filter: invert(4%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 25px;
+    }
+
+    .mid {
+
+        display: block;
+        width: 40%;
+
+        margin: 10px auto;
+        /* border: 2px solid yellow; */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 10px;
+        display: inline-block;
+        /* border: 2px solid magenta; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 24px 23px;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: aquamarine;
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: whitesmoke;
+        background-color: black;
+        padding: 4px 10px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(46, 129, 111);
+    }
+
+    .container {
+        /* border: 1px solid gainsboro; */
+        margin: 2px 2px;
+        padding: 3px 4px;
+        width: 39%;
+        border-radius: 4px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 34%;
+        margin: 11px;
+        padding: 4px;
+        border: 2px solid black;
+        border-radius: 7px;
+        font-size: 23px;
+
+    }
+
+    .container h1 {
+        text-align: left;
+    }
+
+    .formgroup button {
+        display: block;
+        margin: auto;
+        width: 23%;
+
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="weight-g7f505a92e_1280.png" alt="">
+            <div>
+                 Fitness Club
+            </div>
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="http://">Home</a></li>
+                <li><a href="http://">About Us</a></li>
+                <li><a href="http://">Fitness</a></li>
+                <li><a href="http://">Contact Us</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Trial</button>
+            <button class="btn">Email Us</button>
+
+
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Us For your Better Health</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="name" name="" placeholder="Enter the Name">
+            </div>
+            <div class="formgroup">
+                <input type="name" name="" placeholder="Enter the Age">
+            </div>
+            <div class="formgroup">
+                <input type="name" name="" placeholder="Enter the Gender">
+            </div>
+            <div class="formgroup">
+                <input type="name" name="" placeholder="Your Interest">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
